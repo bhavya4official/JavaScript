@@ -1,5 +1,5 @@
 //import the Student class from the Student.js module
-import Student from './Student.js';
+import Student from '../Student.js';
 
 // Create an instance of the child class Student
 const student1 = new Student('Alice', 20, 'A');

@@ -1,4 +1,4 @@
-import Person from './inheritance/Person.js';
+import Person from './Person.js';
 
 // Define a child class that inherits from the parent class
 class Student extends Person {

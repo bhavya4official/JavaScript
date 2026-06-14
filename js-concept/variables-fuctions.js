@@ -73,3 +73,11 @@ constExample();
 
 console.log(1 == '1'); // true - type coercion/type casting happens, values are equal
 console.log(1 === '1'); // false - strict equality, no type coercion
+
+let a = null;
+console.log(a); // null
+console.log(typeof a); // object - this is a known quirk in JavaScript, null is considered an object type
+
+let b = undefined;
+console.log(b); // undefined
+console.log(typeof b); // undefined
