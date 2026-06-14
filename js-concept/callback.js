@@ -9,6 +9,7 @@ function fetchData(callback) {
     }, 2000);
 }
 
+// Callback functions to process and modify the fetched data
 function processData(data) {
     console.log('Processing Data: ' + data);
 }

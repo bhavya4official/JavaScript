@@ -71,3 +71,5 @@ function constExample() {
 }
 constExample();
 
+console.log(1 == '1'); // true - type coercion/type casting happens, values are equal
+console.log(1 === '1'); // false - strict equality, no type coercion

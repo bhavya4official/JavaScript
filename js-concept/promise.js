@@ -11,8 +11,9 @@ function fetchData(callback) {
     });
 };
 
-fetchData().then(function (data) {
-    console.log('Processing Data: ' + data);
+// Using .then() to handle the resolved value of the promise and .catch() to handle any errors that may occur during the asynchronous operation.
+fetchData().then(function (data) { // inside function will execute only when promise is resolved
+    console.log('Processing Data: ' + data); 
 });
 
 const data = await fetchData();
