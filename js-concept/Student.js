@@ -3,7 +3,7 @@ import Person from './Person.js';
 // Define a child class that inherits from the parent class
 class Student extends Person {
     constructor(name, age, grade) {
-        super(name, age); // Super keyword is used to Call the parent class constructor
+        super(name, age); // Super keyword is used to invoke the parent class constructor
         this.grade = grade; // Add a new property specific to the child class
     }
 
